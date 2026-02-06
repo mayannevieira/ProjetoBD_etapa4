@@ -37,6 +37,8 @@ def create():
                 _unome = request.form["unome"],
                 _data_nasc = request.form["data_nasc"],
                 _salario = request.form["salario"],
+                _endereco = request.form["endereco"],
+                _sexo = request.form["sexo"]
             )
 
         #Linha que vai criar o novo funcionario

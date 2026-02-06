@@ -12,7 +12,7 @@ body {
 
 /* CABEÇALHO */
 header {
-    background: #6b02ff; /* Roxo vibrante */
+    background: #6b02ff; 
     color: white;
     padding: 20px;
     margin-bottom: 20px;
@@ -31,17 +31,17 @@ header h1 {
 table {
     width: 100%;
     border-collapse: collapse;
-    background: #1e1e24; /* Cinza grafite muito escuro */
+    background: #1e1e24; 
     margin-bottom: 20px;
     border-radius: 8px;
-    overflow: hidden; /* Garante que as bordas arredondadas funcionem */
+    overflow: hidden; 
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
 /* CABEÇALHO DA TABELA */
 thead {
-    background: #000000; /* Preto puro */
-    color: #bb86fc; /* Roxo claro para contraste */
+    background: #000000; 
+    color: #bb86fc; 
 }
 
 th, td {
@@ -56,7 +56,7 @@ tbody tr {
 }
 
 tbody tr:hover {
-    background: #2a2a33; /* Destaque suave ao passar o mouse */
+    background: #2a2a33; 
 }
 
 /* LINKS DE AÇÃO */
@@ -75,7 +75,7 @@ td a:hover {
 
 /* CORES DOS LINKS DE AÇÃO */
 td a:nth-child(1) { color: #bb86fc; } /* Visualizar - Lilás */
-td a:nth-child(2) { color: #03dac6; } /* Editar - Ciano (combina bem com roxo) */
+td a:nth-child(2) { color: #03dac6; } /* Editar - Ciano  */
 td a:nth-child(3) { color: #cf6679; } /* Apagar - Vermelho Pastel */
 
 /* BOTÃO NOVO FUNCIONÁRIO */

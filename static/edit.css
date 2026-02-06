@@ -1,15 +1,14 @@
-/* CSS SIMPLES PARA EDIÇÃO - TEMA DARK PURPLE */
 body { 
     font-family: Arial, sans-serif; 
     padding: 20px; 
-    background: #050208; /* Preto profundo */
+    background: #050208; 
     color: #eeeeee;
 }
 
 .container {
     max-width: 600px;
     margin: 20px auto;
-    background: #11081a; /* Roxo noturno */
+    background: #11081a; 
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.5);
@@ -17,12 +16,12 @@ body {
 }
 
 h1 { 
-    color: #bb86fc; /* Roxo claro/Lilás */
+    color: #bb86fc; 
     margin-bottom: 5px; 
 }
 
 p.subtitulo {
-    color: #9d50bb; /* Roxo médio */
+    color: #9d50bb; 
     margin-top: 0;
 }
 
@@ -41,17 +40,17 @@ label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #d199ff; /* Lilás suave */
+    color: #d199ff; 
 }
 
 input, select {
     width: 100%;
     padding: 8px;
-    background: #1e1129; /* Fundo do input em roxo escuro */
+    background: #1e1129; 
     border: 1px solid #3c135a;
     border-radius: 3px;
     color: white;
-    box-sizing: border-box; /* Garante que o padding não quebre a largura */
+    box-sizing: border-box; 
 }
 
 input:focus, select:focus {
@@ -62,7 +61,7 @@ input:focus, select:focus {
 
 input[readonly] {
     background: #0a0510;
-    color: #6c5ce7; /* Texto em roxo azulado para campos travados */
+    color: #6c5ce7;
     border-color: #251435;
 }
 
@@ -89,7 +88,7 @@ button, .btn {
 }
 
 button[type="submit"] {
-    background: #6200ea; /* Roxo vibrante */
+    background: #6200ea; 
     color: white;
 }
 
@@ -99,7 +98,7 @@ button[type="submit"]:hover {
 }
 
 .btn-cancelar {
-    background: #2d1b4d; /* Roxo escuro para o botão cancelar */
+    background: #2d1b4d; 
     color: #a29bfe;
     text-decoration: none;
     display: inline-block;
@@ -111,11 +110,11 @@ button[type="submit"]:hover {
     color: white;
 }
 
-/* INFO ADICIONAL */
+
 .info {
     margin-top: 30px;
     padding: 15px;
-    background: #0a0510; /* Fundo mais escuro para destaque */
+    background: #0a0510; 
     border-radius: 5px;
     border-left: 4px solid #4b0082;
 }

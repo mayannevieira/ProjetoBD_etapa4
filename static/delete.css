@@ -5,7 +5,7 @@
 
 body{
     font-family: Arial;
-    background: #050208; /* Preto profundo */
+    background: #050208;
     padding: 20px;
     color: #eeeeee;
 }
@@ -16,7 +16,7 @@ body{
 }
 
 .card{
-    background: #11081a; /* Roxo noturno */
+    background: #11081a; 
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.5);
@@ -25,12 +25,12 @@ body{
 
 .cabecalho{
     text-align: center;
-    border-bottom: 2px solid #6200ea; /* Roxo vibrante no lugar do vermelho */
+    border-bottom: 2px solid #6200ea; 
     padding-bottom: 10px; 
 }
 
 .cabecalho h1{
-    color: #bb86fc; /* Lilás neon */
+    color: #bb86fc; 
     margin: 0;
 }
 
@@ -41,18 +41,18 @@ body{
 }
 
 .alerta-aviso{
-    background: #210933; /* Roxo muito escuro para aviso */
+    background: #210933; 
     color: #e0b0ff;
     border: 1px solid #3c135a;
 }
 
 .alerta-perigo{
-    background: #4b0082; /* Roxo Indigo */
+    background: #4b0082; 
     color: #ffffff;
 }
 
 .informacoes{
-    background: #0a0510; /* Fundo preto para destaque de texto */
+    background: #0a0510; 
     padding: 10px;
     margin: 15px 0;
     border: 1px solid #1f1430;
@@ -78,13 +78,13 @@ body{
 }
 
 .botao-cancelar{
-    background: #2d1b4d; /* Roxo escuro neutro */
+    background: #2d1b4d; 
     color: #a29bfe;
     margin-right: 10px;
 }
 
 .botao-excluir{
-    background: #6200ea; /* Roxo principal */
+    background: #6200ea;
     color: white;
 }
 
@@ -92,6 +92,6 @@ body{
     margin-top: 20px;
     padding-top: 10px;
     border-top: 1px solid #251435;
-    color: #6a5a8c; /* Texto discreto em roxo acinzentado */
+    color: #6a5a8c; 
     font-size: 0.9em;
 }
