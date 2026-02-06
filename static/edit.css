@@ -1,0 +1,126 @@
+/* CSS SIMPLES PARA EDIÇÃO - TEMA DARK PURPLE */
+body { 
+    font-family: Arial, sans-serif; 
+    padding: 20px; 
+    background: #050208; /* Preto profundo */
+    color: #eeeeee;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #11081a; /* Roxo noturno */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    border: 1px solid #251435;
+}
+
+h1 { 
+    color: #bb86fc; /* Roxo claro/Lilás */
+    margin-bottom: 5px; 
+}
+
+p.subtitulo {
+    color: #9d50bb; /* Roxo médio */
+    margin-top: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #251435;
+    margin: 20px 0;
+}
+
+/* ESTILOS DE FORMULÁRIO */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #d199ff; /* Lilás suave */
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    background: #1e1129; /* Fundo do input em roxo escuro */
+    border: 1px solid #3c135a;
+    border-radius: 3px;
+    color: white;
+    box-sizing: border-box; /* Garante que o padding não quebre a largura */
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #bb86fc;
+    box-shadow: 0 0 5px rgba(187, 134, 252, 0.3);
+}
+
+input[readonly] {
+    background: #0a0510;
+    color: #6c5ce7; /* Texto em roxo azulado para campos travados */
+    border-color: #251435;
+}
+
+.text-muted {
+    color: #6a5a8c;
+    font-size: 0.9em;
+    margin-top: 3px;
+    display: block;
+}
+
+/* BOTÕES */
+.btn-group {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button, .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button[type="submit"] {
+    background: #6200ea; /* Roxo vibrante */
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background: #7c4dff;
+    box-shadow: 0 0 10px rgba(98, 0, 234, 0.4);
+}
+
+.btn-cancelar {
+    background: #2d1b4d; /* Roxo escuro para o botão cancelar */
+    color: #a29bfe;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.btn-cancelar:hover {
+    background: #3c135a;
+    color: white;
+}
+
+/* INFO ADICIONAL */
+.info {
+    margin-top: 30px;
+    padding: 15px;
+    background: #0a0510; /* Fundo mais escuro para destaque */
+    border-radius: 5px;
+    border-left: 4px solid #4b0082;
+}
+
+.info h5 {
+    margin-top: 0;
+    color: #bb86fc;
+}

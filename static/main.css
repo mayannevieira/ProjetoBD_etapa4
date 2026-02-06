@@ -1,0 +1,101 @@
+body {
+    margin: 20px;
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif; 
+    background: #0f0f12; 
+    color: #e0e0e0;
+}
+
+.app {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+header {
+    background: #6b02ff; /* Roxo vibrante */
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(98, 0, 234, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* TABELA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1e1e24; /* Cinza grafite muito escuro */
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden; /* Garante que as bordas arredondadas funcionem */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* CABEÇALHO DA TABELA */
+thead {
+    background: #000000; /* Preto puro */
+    color: #bb86fc; /* Roxo claro para contraste */
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #2d2d35;
+}
+
+/* LINHAS DA TABELA */
+tbody tr {
+    transition: background 0.3s ease;
+}
+
+tbody tr:hover {
+    background: #2a2a33; /* Destaque suave ao passar o mouse */
+}
+
+/* LINKS DE AÇÃO */
+td a {
+    text-decoration: none;
+    margin-right: 12px;
+    font-size: 18px;
+    padding: 5px;
+    transition: transform 0.2s;
+    display: inline-block;
+}
+
+td a:hover {
+    transform: scale(1.2);
+}
+
+/* CORES DOS LINKS DE AÇÃO */
+td a:nth-child(1) { color: #bb86fc; } /* Visualizar - Lilás */
+td a:nth-child(2) { color: #03dac6; } /* Editar - Ciano (combina bem com roxo) */
+td a:nth-child(3) { color: #cf6679; } /* Apagar - Vermelho Pastel */
+
+/* BOTÃO NOVO FUNCIONÁRIO */
+.novo-botao {
+    text-align: right;
+}
+
+.novo-botao a {
+    display: inline-block;
+    background: #6200ea;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.novo-botao a:hover {
+    background: #7c4dff;
+    box-shadow: 0 0 15px rgba(98, 0, 234, 0.5);
+}

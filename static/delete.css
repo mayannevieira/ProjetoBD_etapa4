@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+    background: #050208; /* Preto profundo */
+    padding: 20px;
+    color: #eeeeee;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.card{
+    background: #11081a; /* Roxo noturno */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    border: 1px solid #251435;
+}
+
+.cabecalho{
+    text-align: center;
+    border-bottom: 2px solid #6200ea; /* Roxo vibrante no lugar do vermelho */
+    padding-bottom: 10px; 
+}
+
+.cabecalho h1{
+    color: #bb86fc; /* Lilás neon */
+    margin: 0;
+}
+
+.alerta{
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 3px;
+}
+
+.alerta-aviso{
+    background: #210933; /* Roxo muito escuro para aviso */
+    color: #e0b0ff;
+    border: 1px solid #3c135a;
+}
+
+.alerta-perigo{
+    background: #4b0082; /* Roxo Indigo */
+    color: #ffffff;
+}
+
+.informacoes{
+    background: #0a0510; /* Fundo preto para destaque de texto */
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #1f1430;
+}
+
+.botoes{
+    text-align: right;
+    margin-top: 20px; 
+}
+
+.botao{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: opacity 0.2s;
+}
+
+.botao:hover {
+    opacity: 0.8;
+}
+
+.botao-cancelar{
+    background: #2d1b4d; /* Roxo escuro neutro */
+    color: #a29bfe;
+    margin-right: 10px;
+}
+
+.botao-excluir{
+    background: #6200ea; /* Roxo principal */
+    color: white;
+}
+
+.rodape{
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #251435;
+    color: #6a5a8c; /* Texto discreto em roxo acinzentado */
+    font-size: 0.9em;
+}
